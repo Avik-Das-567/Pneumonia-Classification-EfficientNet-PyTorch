@@ -13,7 +13,7 @@ The main objectives of this project are:
 
 - Apply image transforms for preprocessing and augmentation.
 - Load image data into batches using PyTorch `DataLoader`.
-- Load and fine-tune a pretrained EfficientNet model.
+- Load and adapt a pretrained EfficientNet model using transfer learning.
 - Build a simple PyTorch trainer for model training, validation, checkpointing, and evaluation.
 
 ## Problem Statement
