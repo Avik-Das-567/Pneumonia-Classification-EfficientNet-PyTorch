@@ -291,6 +291,6 @@ This keeps preprocessing and visualization consistent across the project.
 
 ## Key Takeaways
 
-This project demonstrates a complete transfer learning workflow for medical image classification using PyTorch. It combines dataset loading, preprocessing, augmentation, mini-batch training, pretrained EfficientNet feature extraction, classifier replacement, checkpointing, quantitative evaluation, and prediction visualization in a single notebook-driven workflow.
-The final model uses a frozen EfficientNet-B4 backbone and trains a lightweight custom classifier head for binary chest X-ray classification. With one training epoch, the recorded notebook run achieved a test accuracy of approximately `87.98%` on the held-out test split.
-The implementation is intentionally compact but covers the essential components of a supervised computer vision pipeline: data preparation, model adaptation, training loop construction, validation-based checkpointing, and interpretable prediction display.
+- This project demonstrates a complete transfer learning workflow for medical image classification using PyTorch. It combines dataset loading, preprocessing, augmentation, mini-batch training, pretrained EfficientNet feature extraction, classifier replacement, checkpointing, quantitative evaluation, and prediction visualization in a single notebook-driven workflow.
+- The final model uses a frozen EfficientNet-B4 backbone and trains a lightweight custom classifier head for binary chest X-ray classification. With one training epoch, the recorded notebook run achieved a test accuracy of approximately `87.98%` on the held-out test split.
+- The implementation is intentionally compact but covers the essential components of a supervised computer vision pipeline: data preparation, model adaptation, training loop construction, validation-based checkpointing, and interpretable prediction display.
