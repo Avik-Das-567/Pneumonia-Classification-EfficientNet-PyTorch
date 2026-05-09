@@ -9,7 +9,7 @@ This project builds a deep learning image classifier for detecting pneumonia fro
 
 The implementation uses transfer learning with a pretrained EfficientNet-B4 model from the `timm` library. Instead of training a convolutional neural network from scratch, the notebook freezes the pretrained EfficientNet feature extractor and replaces the original classification layer with a custom fully connected classifier for the two chest X-ray categories.
 
-The project follows the main learning objectives from the project brief:
+The main objectives of this project are:
 
 - Apply image transforms for preprocessing and augmentation.
 - Load image data into batches using PyTorch `DataLoader`.
